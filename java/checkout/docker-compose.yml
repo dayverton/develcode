@@ -1,0 +1,8 @@
+version: '3'
+services:
+  checkout-service:
+    image: checkout-service
+    build:
+      context: .
+    ports:
+      - "8080:8080"
